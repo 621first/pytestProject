@@ -1,0 +1,9 @@
+-
+  name: 测试baidu
+  request:
+    method: get
+    url: https://www.baidu.com
+    data:
+      q: python
+  validate:
+    eq1: {'assert_str1': 1}

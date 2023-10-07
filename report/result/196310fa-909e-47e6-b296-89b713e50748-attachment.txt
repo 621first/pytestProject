@@ -1,0 +1,5 @@
+INFO     requestUtil_log:test_requestUtil.py:27 接口功能：测试taobao
+INFO     requestUtil_log:test_requestUtil.py:28 接口地址：https://www.taobao.com
+INFO     requestUtil_log:test_requestUtil.py:29 请求方式：get
+INFO     requestUtil_log:test_requestUtil.py:30 接口入参：{'q': 'python'}
+INFO     requestUtil_log:test_requestUtil.py:44 断言结果：预期结果：1,实际结果：1

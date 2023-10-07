@@ -1,0 +1,66 @@
+- name: first_case
+  request:
+    method: get
+    url: /cgi-bin/token
+    params:
+      appid: id1
+      secret: secret1
+      grant_type: grant_type1
+  validate:
+    eq: $csv{assert}
+
+- name: second_case
+  request:
+    method: get
+    url: /cgi-bin/token
+    params:
+      appid: 
+      secret: secret2
+      grant_type: grant_type2
+  validate:
+    eq: $csv{assert}
+
+- name: third_case
+  request:
+    method: get
+    url: /cgi-bin/token
+    params:
+      appid: id3
+      secret: 
+      grant_type: grant_type3
+  validate:
+    eq: $csv{assert}
+
+- name: forth_case
+  request:
+    method: get
+    url: /cgi-bin/token
+    params:
+      appid: id4
+      secret: secret4
+      grant_type: 
+  validate:
+    eq: $csv{assert}
+
+- name: fifth_case
+  request:
+    method: get
+    url: /cgi-bin/token
+    params:
+      appid: id5
+      secret: secret5
+      grant_type: 
+  validate:
+    eq: $csv{assert}
+
+- name: sixth_case
+  request:
+    method: get
+    url: /cgi-bin/token
+    params:
+      appid: id6
+      secret: secret6
+      grant_type: 
+  validate:
+    eq: $csv{assert}
+

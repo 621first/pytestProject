@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_01[cp-paramInfo0]",
+    "uid" : "af0c85b70af0ad16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1682141834885,
+      "stop" : 1682141835093,
+      "duration" : 208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'cp'", "{'name': '测试baidu', 'request': {'method': 'get', 'url': 'https://www.baidu.com', 'data': {'q': 'python'}}, 'validate': {'eq1': {'assert_str1': 1}, 'eq2': {'assert_str2': 2}, 'eq3': {'assert_str2': 2}, 'eq4': {'assert_str2': 1}}}" ]
+  }, {
+    "name" : "test_01[cp-paramInfo1]",
+    "uid" : "e1d57e642cc088e2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1682141835099,
+      "stop" : 1682141835446,
+      "duration" : 347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'cp'", "{'name': '测试taobao', 'request': {'method': 'get', 'url': 'https://www.taobao.com', 'data': {'q': 'python'}}, 'validate': {'eq1': {'assert_str1': 1}}}" ]
+  }, {
+    "name" : "test_01[cp-paramInfo2]",
+    "uid" : "5ff0c40c145862f7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1682141835451,
+      "stop" : 1682141835756,
+      "duration" : 305
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'cp'", "{'name': '测试jianshu', 'request': {'method': 'get', 'url': 'https://www.jianshu.com', 'data': {'q': 'python'}}, 'validate': {'eq2': {'assert_str2': 1}}}" ]
+  } ]
+}

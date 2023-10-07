@@ -1,0 +1,33 @@
+-
+  name: 测试baidu
+  request:
+    method: get
+    url: https://www.baidu.com
+    data:
+      q: python
+  validate:
+    eq1: {'assert_str1': 1}
+    eq2: {'assert_str2': 2}
+    eq3: {'assert_str2': 2}
+    eq4: {'assert_str2': 1}
+
+-
+  name: 测试taobao
+  request:
+    method: get
+    url: https://www.taobao.com
+    data:
+      q: python
+  validate:
+    eq1: {'assert_str1': 1}
+
+
+-
+  name: 测试jianshu
+  request:
+    method: get
+    url: https://www.jianshu.com
+    data:
+      q: python
+  validate:
+    eq2: {'assert_str2': 1}

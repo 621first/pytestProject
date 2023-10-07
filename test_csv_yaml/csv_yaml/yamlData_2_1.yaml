@@ -1,0 +1,10 @@
+- name: name
+  request:
+    method: get
+    url: /cgi-bin/token
+    params:
+      appid: appid${appid}
+      secret: secret
+      grant_type: grant_type
+  validate:
+    eq: assert_str

@@ -1,0 +1,7 @@
+name,appid,secret,grant_type,assert_str
+first_case,id1,secret1,grant_type1,errcode1
+second_case,"",secret2,grant_type2,errcode2
+third_case,id3,"",grant_type3,errcode3
+forth_case,id4,secret4,"",errcode4
+fifth_case,id5,secret5,"",errcode5
+sixth_case,id6,secret6,"",errcode6

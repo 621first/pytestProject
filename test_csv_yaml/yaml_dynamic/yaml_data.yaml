@@ -1,0 +1,8 @@
+- method: get
+  url: http://www.baidu.com
+  headers:
+    Content-Type: application/json
+    token: token
+  data:
+    username: username${get_username_random}
+    password: password
